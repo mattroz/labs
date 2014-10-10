@@ -1,0 +1,49 @@
+body {
+/*	background-color: #36648b; */
+	overflow: scroll;
+	background-image: url("bgimage.jpg");
+}
+
+p{
+	letter-spacing: -1px;
+}
+
+.dark {
+	text-align: center;
+	color: #D1D0CE;
+}
+
+.light{
+	text-align: center;
+	color: #F0FFFF;
+}
+
+h1{
+	color: #E5E4E2;
+	font-size: 3em;
+	letter-spacing:-3px;
+	cursor: pointer;
+	text-align: center;
+}
+
+a{
+	font-size: 1.3em;
+    text-decoration: none;
+  	letter-spacing: -2px;
+  	font-weight: bold;
+  	font-family: Verdana;
+  	padding-right: 59%;
+}
+
+a:visited{
+	color: #95B9C7;
+}
+
+a:active{
+	color: red;
+}
+
+#authors{
+	color: #F0FFFF;
+}
+

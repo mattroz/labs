@@ -1,0 +1,64 @@
+html {background-color: papayawhip;}
+/*#main {background-color: rgb(255,170,150);}*/
+/*#main {background-color: white;}*/
+/* #main {
+	border:hidden;
+} */
+/* td {
+	border:none;
+} */
+#banner {
+	font-weight: 500;
+	/*font-style: oblique;*/
+	font-size: 20px;
+	text-align: justify;
+
+	
+}
+#searchinput {
+	border: solid 3px #8e2446;
+}
+#searchbutton {
+	border: solid 3px #8e2446;
+	color:#8e2446;
+	font-size: 80%;		
+	font-weight: 600;
+			}
+
+#botmenu {
+	vertical-align: top; 
+	font-style: italic;
+	font-size: normal;
+	font-weight: bold;
+	border-right: groove;
+	border-right: solid #8e2446 3px;
+
+ }
+
+ #contentarea {
+ 	font-weight: 600;
+ 	font-style: italic;
+ 	text-align:top;
+
+ 
+}
+#topmenu {
+}
+td.element{
+
+text-align: center;
+font-weight: 500;
+font-style: italic;
+background: url(button.gif) repeat-x;
+height: 45px;
+
+}
+
+#mainmenu {
+
+}
+
+#footer {
+	background-color: lightblue;
+
+};

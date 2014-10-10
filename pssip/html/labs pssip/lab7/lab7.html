@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Lab8: Sakovich, Rozanov</title>
+    </head> 
+    <body>
+        <h1>Registration form</h1>
+
+        <form name="registration_form" method="POST" action=".">
+            <p><label for="usr_name">Your name:</label><input name="usr_name" type="text" /></p>
+            <p><label for="usr_lastname">Your last name:</label><input name="usr_lastname" type="text" /></p>
+            <p><label for="password">Your password:</label><input name="password" type="password" /></p>
+            <label for="country">Your country:</label>
+                <select name="country">
+                    <option value="1">USA</option>
+                    <option value="2">England</option>
+                    <option value="3">Russia</option>
+                </select>
+            <p><label for="birth_day">Birthday: </label><input type="text" name="birth_day" />
+            <label for="birth_month">Birth month: </label><input type="text" name="birth_month" />
+            <label for="birth_year">Birth year: </label><input type="text" name="birth_year" /></p>
+            <label for="sex">Sex (male|female): </label><input type="radio" name="sex" value="m" checked> <input type="radio" name="sex" value="w" />
+            <p><label>Interests: </label></p>
+                <p><input name="1" type="checkbox" />IT</p>
+                <p><input name="2" type="checkbox" />Music</p>
+                <p><input name="3" type="checkbox" />Films</p>
+            <p><label for="about">About: </label></p>
+            <textarea name="about"></textarea></p>
+            <p><input type="submit" value="Send" />
+            <input type="reset" value="Cancel" /></p>
+        </form>
+    </body>
+<html/>
