@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "yes"?>
+<!DOCTYPE book [
+	<!ELEMENT book (dish+)>
+	<!ELEMENT dish (dish-type, dishname, mera-vesov, ingredient+,ingred-count+,recepy,col-count)>
+	<!ATTLIST dish id ID #REQUIRED>
+	<!ATTLIST ingredient id ID #REQUIRED>
+	<!ATTLIST ingred-count id ID #REQUIRED>
+]>
+<book>
+	<dish id = "1"> 
+		<dish-type>type1</dish-type>  
+		<dishname></dishname> 	
+		<mera-vesov></mera-vesov> 
+		<ingredient id = "1"></ingredient> 
+		<ingred-count id = "1"></ingred-count> 
+		<recepy></recepy> 	
+		<col-count></col-count> 
+	</dish>
+	<dish id = "2"> 
+		<dish-type></dish-type>  
+		<dishname></dishname> 	
+		<mera-vesov></mera-vesov> 
+		<ingredient id = "2"></ingredient> 
+		<ingred-count id = "2"></ingred-count> 
+		<ingredient id = "2"></ingredient> 
+		<ingred-count id = "2"></ingred-count> 
+		<recepy></recepy> 	
+		<col-count></col-count> 
+	</dish>
+</book>
