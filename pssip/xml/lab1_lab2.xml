@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone = "yes"?>
+<?xml-stylesheet type="text/xsl" href="file.xsl"?>
 <!DOCTYPE book [
 	<!ELEMENT book (dish+)>
 	<!ELEMENT dish (dish-type, dishname, mera-vesov, ingredient+,ingred-count+,recepy,col-count)>
@@ -9,22 +10,22 @@
 <book>
 	<dish id = "1"> 
 		<dish-type>type1</dish-type>  
-		<dishname></dishname> 	
-		<mera-vesov></mera-vesov> 
+		<dishname>dish 1</dishname> 	
+		<mera-vesov>100</mera-vesov> 
 		<ingredient id = "1"></ingredient> 
 		<ingred-count id = "1"></ingred-count> 
-		<recepy></recepy> 	
-		<col-count></col-count> 
+		<recepy>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad <!-- blanditiis praesentium consequatur, voluptatum maxime sit, harum placeat ipsum ut voluptatem non pariatur magnam eligendi odio rerum, --> quod nesciunt ratione facilis.
+						</recepy> 	
+		<col-count>1</col-count> 
 	</dish>
 	<dish id = "2"> 
-		<dish-type></dish-type>  
-		<dishname></dishname> 	
-		<mera-vesov></mera-vesov> 
+		<dish-type>type2</dish-type>  
+		<dishname>dish 2</dishname> 	
+		<mera-vesov> 200</mera-vesov> 
 		<ingredient id = "2"></ingredient> 
 		<ingred-count id = "2"></ingred-count> 
-		<ingredient id = "2"></ingredient> 
-		<ingred-count id = "2"></ingred-count> 
-		<recepy></recepy> 	
+		<recepy>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <!-- Quaerat inventore ex tempora consequuntur quisquam explicabo, dignissimos expedita esse amet facere! Temporibus minima aspernatur illum, est, explicabo quibusdam suscipit? Totam, autem!
+		Quos odit, eligendi quod iure, praesentium atque veniam quo aliquam! Ipsam sint quod aut velit architecto commodi sapiente ratione nobis, reprehenderit fuga quis eum alias voluptate molestiae sunt, quia  -->excepturi</recepy> 	
 		<col-count></col-count> 
 	</dish>
 </book>
