@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    .cl1{color:blue;font-size: 12px; font-family: Arial}
+    .cl2{color: red; font-style: inherit;}
+    .cl3{color: green; font-family: monospace; }
+    .cl4{color: cyan; border-color: red;}
+    .cl5{color: blue; font-style: italic;}
+
+</style>
+<body>
+<table border = 1 width = 100%>
+    <tr class = cl1>
+        <td  onmouseover="this.className = 'cl2'" onmouseout="this.className = 'cl5'">text1</td>
+        <td ondblclick="this.className = 'cl3'">text2</td>
+        <td onclick = "this.classname = 'cl4'">text3</td>
+        <td  onmouseover="this.style.color='yellow'">text4</td>
+
+        <td ondblclick="this.style.backgroundColor='green'">text5</td>
+    </tr>
+</table>
+
+</body>
+</html>

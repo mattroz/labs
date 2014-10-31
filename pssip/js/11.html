@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>11.1</title>
+</head>
+
+<body style="background-color: lightgoldenrodyellow">
+<script language="JavaScript">
+    var a = prompt('USERNAME:');
+//    document.write("hi, "+a);
+    var button = document.createElement('input');
+    button.type = 'button';
+    button.text = ("hi, "+a);
+    button.value = "hi, " + a;
+    function func () {
+        var b = prompt('Change uname:');
+
+        document.write("hi, " + b);
+    }
+
+    document.body.appendChild(button);
+    button.onclick  = func;
+
+    var abs = prompt("number");
+    var s = 1;
+    for (var i = 1; i <= abs; i++) {
+        s = s * i;
+
+    }
+    alert(s);
+
+</script>
+
+</body>
+</html>
